@@ -1,5 +1,5 @@
 {% set name = "pytool" %}
-{% set version = "3.16.1" %}
+{% set version = "5.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytool-{{ version }}.tar.gz
-  sha256: 12dc85d63bd3996a363c830b9a2de3747c77d5c0851853404229cf22496fcd40
+  sha256: 0843aac7268f12c5e46b06026998826323f9b3976a12f28acc151a0ea0ac58e9
 
 build:
   number: 0
